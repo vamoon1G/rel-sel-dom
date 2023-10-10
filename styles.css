@@ -4,11 +4,15 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px;
-width: 2000px;
+    
 }
-
+div.e{
+    text-align: center;
+    width: 400;
+    height: 600;
+}
 header h1 {
-    font-size: 36px;
+    
     margin: 0;
 }
 
