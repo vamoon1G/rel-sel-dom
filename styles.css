@@ -61,6 +61,7 @@ a.change-text:hover{
   color: #740200; /* Меняем цвет текста */
 }
 
+
 p.g{
     font-size: 1.4em;
 }
@@ -117,14 +118,7 @@ section {
 
 .show {display: block;}
 
-.image-container {
-    background-image: url("/Users/vaagnavalan/Desktop/github Avalian's/AVALIANGREB--0.png");
-    width: 1000px;
-    height: 1000px;
-    text-align: center;
-    padding: 20px;
-    background-size:cover;
-  }
+
 
   .wrapper {
     width: 600px;
