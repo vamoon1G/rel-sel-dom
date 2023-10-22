@@ -7,10 +7,23 @@
     <title>Главная страница</title>
 </head>
 <body class="r">
+
+    <div id="passwordModal" class="password-modal">
+        <div class="password-content">
+            <p>Please enter the password:</p>
+            <input type="password" id="passwordInput" placeholder="Введите пароль">
+            <button id="submitPassword">Войти</button>
+            <p id="errorMessage" style="color: #740200"></p>
+        </div>
+    </div>
+        
     <header>
         <h1>
-       <div class="e"> <img src="png/AVALIANGREB--0.png" alt="" width="600"
-        height="400"></div></h1>
+       <div class="e"> <img src="png/AVALIANGREB--0.png" alt="" style="
+        max-width: 600px;
+        height: auto;
+        width: 86vw;
+    "></div></h1>
         <nav>
             <ul>
                 <li><a href="index.html" class="change-text">Главная</a></li>
@@ -32,6 +45,6 @@
     <footer>
         <p>&copy; 2023 AVALIAN's Network</p>
     </footer>
-    
+    <script src="admin.js"></script>
 </body>
 </html>

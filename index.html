@@ -7,20 +7,21 @@
     <title>Главная страница</title>
 </head>
 <body>
+  <div id="passwordModal" class="password-modal">
+    <div class="password-content">
+        <p>Please enter the password:</p>
+        <input type="password" id="passwordInput" placeholder="Введите пароль">
+        <button id="submitPassword">Войти</button>
+        <p id="errorMessage" style="color: #740200"></p>
+    </div>
+</div>
     
     <header> 
-            <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Авторизоваться</button>
-            <div id="myDropdown" class="dropdown-content">
-            <a href="#home">Зарегистрироваться</a>
-            <a href="#about">Войти</a>
-            <a href="#contact">Помощь</a>
-            </div>
-        </div>
+    
        <h1> <div class="e"> <img src="png/AVALIANGREB--0.png" alt="" style="
     max-width: 600px;
     height: auto;
-    width: 110vw;
+    width: 86vw;
 "></div></h1>
         <nav>
             <ul>
@@ -53,26 +54,7 @@
         <p>&copy; 2023 AVALIAN's Network</p>
     </footer>
     
-    <script>
-        
-        function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
-        }
-        
-       
-        window.onclick = function(event) {
-          if (!event.target.matches('.dropbtn')) {
-        
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-              var openDropdown = dropdowns[i];
-              if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-              }
-            }
-          }
-        }
-        </script>
+   
+        <script src="admin.js"></script>
 </body>
 </html>
